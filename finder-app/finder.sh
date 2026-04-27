@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 #echo "Finder App" 
 
 filesdir=$1
