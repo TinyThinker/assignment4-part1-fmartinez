@@ -33,7 +33,10 @@ void* threadfunc(void* thread_param)
     if (rc != 0){
         printf("Unable to unlock mutex.\n");
     }
-    thread_func_args->thread_complete_success = true;
+    else{
+        thread_func_args->thread_complete_success = true;
+    }
+
     return thread_param;
 }
 
